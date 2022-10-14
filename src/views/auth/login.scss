@@ -1,0 +1,69 @@
+$font-stack: Helvetica, sans-serif;
+$company-color: #213F7D;
+$navy-blue: #545F7D;
+$turquoise-green: #39CDCC;
+$white: #FFFFFF;
+.row {
+    display: flex;
+    justify-content: space-between;
+
+    .left-side {
+        padding-top: 5rem;
+        padding-left: 4rem;
+
+        .logo {
+            padding-left: 1.5rem;
+        }
+
+        .hero {
+            margin-top: 8rem;
+        }
+    }
+
+    .right-side {
+        width: 38%;
+        max-height: 100vh;
+        margin-top: 5rem;
+        box-shadow: 0px 15px 90px rgba(0, 0, 0, 0.03);
+        padding: 13rem 5rem;
+        form {
+            h3 {
+                font-size: 2rem;
+                font-weight: 700;
+                color: $company-color;
+            }
+            p {
+                font-size: 1rem;
+                color: $navy-blue;
+                font-weight: 400;
+                margin-top: -2rem;
+                margin-bottom: 2.5rem;
+            }
+            label {
+                input {
+                    display: block;
+                    border: 2px solid rgba(84, 95, 125, 0.15);;
+                    margin-bottom: 1.5rem;
+                    border-radius: 5px;
+                    padding: 0.5rem;
+                    width: 20rem;
+                }
+            }
+            h6 {
+                color: $turquoise-green;
+                font-size: 0.8rem;
+                font-weight: 600;
+            }
+            button {
+                background-color: $turquoise-green;
+                color: $white;
+                border-radius: 8px;
+                width: 21rem;
+                border: none;
+                padding: 0.5rem;
+            }
+        }
+
+    }
+    
+}

@@ -1,0 +1,18 @@
+$font-stack: Helvetica, sans-serif;
+$company-color: #213F7D;
+$navy-blue: #545F7D;
+$turquoise-green: #39CDCC;
+$white: #FFFFFF;
+.user {
+    display: flex;
+    .user-item {
+        background-color: $white;
+        border: 1px solid rgba(33, 63, 125, 0.06);
+        box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+        border-radius: 4px;
+        padding-top: 1rem;
+        padding-left: 1.4rem;
+        margin-right: 1.4rem;
+        width: 12rem;
+    }
+}

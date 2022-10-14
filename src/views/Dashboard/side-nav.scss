@@ -1,0 +1,43 @@
+$font-stack: WorK Sans, sans-serif;
+$company-color: #213F7D;
+$navy-blue: #545F7D;
+$turquoise-green: #39CDCC;
+$white: #FFFFFF;
+.container {
+    background-color: $white;
+    width: 19rem;
+    box-shadow: 5px 20px rgba(0, 0, 0, 0.04);
+    padding-left: 0.8rem;
+    .heading {
+        color: $navy-blue;
+        font-weight: 700;
+        font-family: $font-stack;
+    }
+    .switching {
+        display: flex;
+        h6 {
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
+            color: $company-color;
+            font-family: $font-stack;
+        }
+    }
+    .components {
+        display: flex;
+        h6 {
+            margin-left: 0.5rem;
+            margin-top: -0.3rem;
+            color: $company-color;
+        }
+        img {
+            margin-top: -1.6rem;
+        }
+        .signout {
+            margin-top: 0.8rem;
+        }
+    }
+    // .users {
+    //     background-color: #e9fafa;
+    //     padding-top: 0.5rem;
+    // }
+}
