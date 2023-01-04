@@ -19,7 +19,7 @@ class Login extends React.Component<any,any>{
                     </div>
                 </div>
                 <div className="right-side">
-                    <form action="">
+                    <div className="formm">
                         <h3>Welcome!</h3>
                         <p>Enter details to login</p>
                         <label htmlFor="">
@@ -30,7 +30,7 @@ class Login extends React.Component<any,any>{
                         </label>
                         <h6>FORGOT PASSWORD?</h6>
                         <button><Link to="/dashboard">LOG IN</Link></button>
-                    </form>
+                    </div>
                 </div>
             </div>
         )

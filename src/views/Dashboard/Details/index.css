@@ -1,0 +1,10 @@
+.details {
+  margin-top: -10px;
+}
+.details .body {
+  display: flex;
+  background-color: #FBFBFB;
+}
+.details .body .user-details {
+  margin-left: 2.4rem;
+}/*# sourceMappingURL=index.css.map */

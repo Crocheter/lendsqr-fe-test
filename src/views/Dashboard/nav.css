@@ -1,0 +1,77 @@
+.nav {
+  display: flex;
+  padding: 0.8rem;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
+}
+.nav .logo {
+  width: 10%;
+}
+.nav .search {
+  display: flex;
+}
+.nav .search input {
+  color: #545F7D;
+  border: 1px solid #213F7D;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-size: 0.5rem;
+  width: 19rem;
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  align-self: center;
+  border-end-end-radius: 0px;
+  margin-left: -15rem;
+}
+.nav .search .icon {
+  background-color: #39CDCC;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 0.9rem;
+  align-self: center;
+  padding: 0.5rem;
+  margin-left: -2px;
+  margin-top: 1px;
+  width: 0.6rem;
+}
+.nav .nav-items {
+  display: flex;
+  margin-right: 5rem;
+}
+.nav .nav-items .profile {
+  display: flex;
+}
+.nav .nav-items .profile img {
+  width: 2rem;
+  margin-right: 0.5rem;
+}
+.nav .nav-items .profile p {
+  font-family: "Work Sans";
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: #213F7D;
+}
+.nav .nav-items .profile .dropdown {
+  align-self: center;
+  width: 1.1rem;
+  margin-left: -0.1rem;
+}
+.nav .nav-items .docs {
+  text-decoration: underline;
+  color: #213F7D;
+  font-family: "Roboto, sans-serif";
+  font-weight: 400;
+  font-size: 0.8rem;
+  align-self: center;
+  margin-right: 1.5rem;
+}
+.nav .nav-items .notify {
+  align-self: center;
+  width: 1.1rem;
+  margin-right: 1.5rem;
+}/*# sourceMappingURL=nav.css.map */

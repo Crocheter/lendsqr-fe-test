@@ -1,0 +1,52 @@
+.title {
+    font-family: 'Work Sans', sans-serif;
+    .board {
+        display: flex;
+        .name {
+            display: flex;
+            h6 {
+                color: #213F7D;
+                font-size: 22px;
+                font-weight: 500;
+            }
+            p {
+                color: #545F7D;
+                font-size: 14px;
+                font-weight: 400;
+            }
+        }
+        .tier {
+            h6 {
+                color: #545F7D;
+                font-size: 14px;
+                font-weight: 500;
+            }
+            .stars {
+                display: flex;
+            }
+        }
+        .amount {
+            color: #213F7D;
+            h6 {
+                font-size: 22px;
+                font-weight: 500;
+            }
+            p {
+                font-size: 12px;
+                font-weight: 400;
+            }
+        }
+    }
+    .details-nav {
+        display: flex;
+        color: rgba(0, 0, 0, 0.8);
+        font-family: 'SF Compact Text', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        .on {
+            color: #39CDCC;
+            border-bottom: 1px solid #39CDCC;
+        }
+    }
+}

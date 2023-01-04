@@ -1,0 +1,46 @@
+.headings {
+  font-family: "Work Sans", sans-serif;
+}
+.headings .go-back {
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+}
+.headings .go-back h6 {
+  color: #545F7D;
+  margin-left: 5px;
+}
+.headings .heading {
+  display: flex;
+  justify-content: space-between;
+}
+.headings .heading h5 {
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  color: #213F7D;
+  font-weight: 500;
+  font-size: 24px;
+}
+.headings .heading .state-buttons {
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+.headings .heading .state-buttons .blacklist {
+  border: 1px solid #E4033B;
+  color: #E4033B;
+  border-radius: 8px;
+  background-color: #FBFBFB;
+  height: 40px;
+}
+.headings .heading .state-buttons .activate {
+  border: 1px solid #39CDCC;
+  color: #39CDCC;
+  border-radius: 8px;
+  background-color: #FBFBFB;
+  height: 40px;
+  margin-left: 8px;
+}/*# sourceMappingURL=heading.css.map */

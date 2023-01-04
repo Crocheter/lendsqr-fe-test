@@ -1,0 +1,13 @@
+$white: #FFFFFF;
+$font-stack: "Work Sans, sans-serif";
+
+.more {
+    position: absolute;
+    background-color: $white;
+    font-family: $font-stack;
+    z-index: 99;
+    border: 1px solid rgba(84, 95, 125, 0.04);
+    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+    width: 120px;
+}

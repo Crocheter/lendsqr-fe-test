@@ -1,0 +1,69 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.row .left-side {
+  padding-top: 5rem;
+  padding-left: 4rem;
+}
+.row .left-side .logo {
+  padding-left: 1.5rem;
+}
+.row .left-side .hero {
+  margin-top: 8rem;
+}
+.row .right-side {
+  width: 38%;
+  max-height: 100vh;
+  margin-top: 2rem;
+  box-shadow: 0px 15px 90px rgba(0, 0, 0, 0.03);
+  padding: 13rem 5rem;
+}
+.row .right-side .formm h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #213F7D;
+}
+.row .right-side .formm p {
+  font-size: 1rem;
+  color: #545F7D;
+  font-weight: 400;
+  margin-top: -2rem;
+  margin-bottom: 2.5rem;
+}
+.row .right-side .formm label input {
+  display: block;
+  border: 2px solid rgba(84, 95, 125, 0.15);
+  margin-bottom: 1.5rem;
+  border-radius: 5px;
+  padding: 0.5rem;
+  width: 20rem;
+}
+.row .right-side .formm h6 {
+  color: #39CDCC;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.row .right-side .formm button {
+  background-color: #39CDCC;
+  border-radius: 8px;
+  width: 21rem;
+  border: none;
+  padding: 0.5rem;
+}
+.row .right-side .formm button a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+@media (max-width: 750px) {
+  .hero {
+    display: none;
+  }
+  .row {
+    display: block;
+  }
+  .right-side {
+    padding-top: 1rem;
+  }
+}/*# sourceMappingURL=login.css.map */

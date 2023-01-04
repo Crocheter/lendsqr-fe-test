@@ -8,7 +8,7 @@ $pink: #E4033B;
 $green: #39CD62;
 $font-stack: "Work Sans, sans-serif";
 
-.details {
+.detailed {
     margin-top: 2rem;
     table {
         background-color: $white;
@@ -25,6 +25,7 @@ $font-stack: "Work Sans, sans-serif";
                 font-size: 0.6rem;
                 font-weight: 600;
                 color: $navy-blue;
+                position: relative;
                 font-family: $font-stack;
                 img {
                     width: 0.7rem;
@@ -33,6 +34,27 @@ $font-stack: "Work Sans, sans-serif";
             .status{
                 color: $navy-blue;
                 background-color: #e8edfc;
+                border: none;
+                border-radius: 10px;
+                padding: 0.35rem;
+            }
+            .status1{
+                color: $yellow;
+                background-color: #faf5e5;
+                border: none;
+                border-radius: 10px;
+                padding: 0.35rem;
+            }
+            .status2{
+                color: $pink;
+                background-color: #ecd4e4;
+                border: none;
+                border-radius: 10px;
+                padding: 0.35rem;
+            }
+            .status3{
+                color: $green;
+                background-color: #e6f3e5;
                 border: none;
                 border-radius: 10px;
                 padding: 0.35rem;
@@ -46,7 +68,15 @@ $font-stack: "Work Sans, sans-serif";
                 font-weight: 400;
                 color: $navy-blue;
                 font-family: $font-stack;
+                border-bottom: 1px solid rgba(33, 63, 125, 0.1);
             }
+            .more-container {
+                position: relative;
+            }
+        }
+        .border{
+            padding: 2rem;
+            
         }
     }
 }

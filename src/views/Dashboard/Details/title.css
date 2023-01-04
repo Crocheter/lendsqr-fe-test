@@ -1,0 +1,50 @@
+.title {
+  font-family: "Work Sans", sans-serif;
+}
+.title .board {
+  display: flex;
+}
+.title .board .name {
+  display: flex;
+}
+.title .board .name h6 {
+  color: #213F7D;
+  font-size: 22px;
+  font-weight: 500;
+}
+.title .board .name p {
+  color: #545F7D;
+  font-size: 14px;
+  font-weight: 400;
+}
+.title .board .tier h6 {
+  color: #545F7D;
+  font-size: 14px;
+  font-weight: 500;
+}
+.title .board .tier .stars {
+  display: flex;
+}
+.title .board .amount {
+  color: #213F7D;
+}
+.title .board .amount h6 {
+  font-size: 22px;
+  font-weight: 500;
+}
+.title .board .amount p {
+  font-size: 12px;
+  font-weight: 400;
+}
+.title .details-nav {
+  display: flex;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "SF Compact Text", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+.title .details-nav .on {
+  color: #39CDCC;
+  border-bottom: 1px solid #39CDCC;
+}/*# sourceMappingURL=title.css.map */

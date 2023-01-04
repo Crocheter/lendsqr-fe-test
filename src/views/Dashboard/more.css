@@ -1,0 +1,10 @@
+.more {
+  position: absolute;
+  background-color: #FFFFFF;
+  font-family: "Work Sans, sans-serif";
+  z-index: 99;
+  border: 1px solid rgba(84, 95, 125, 0.04);
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+  width: 120px;
+}/*# sourceMappingURL=more.css.map */
